@@ -46,7 +46,7 @@ function loop() {
                 ctx.drawImage(image, 0, 0, image.width, image.height)
 
                 ctx.font = '38px customfont'
-                ctx.fillStyle = 'rgb(51,48,48)'
+                ctx.fillStyle = 'rgb(223, 228, 237)'
 
                 console.log(info.players,info.maxPlayers);
 
