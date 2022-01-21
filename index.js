@@ -55,7 +55,7 @@ function loop() {
                 const left=image.width/2-Math.round(box.width/2)
                 const top=image.height/2-Math.round(box.emHeightAscent/2)
 
-                ctx.fillText(text, left+480, top+70)
+                ctx.fillText(text, left+480, top+130)
         
                 const out = fs.createWriteStream('out.jpg')
                 const stream = canvas.createJPEGStream()
